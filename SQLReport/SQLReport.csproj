@@ -4,4 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Bara" Version="0.9.5.5" />
+    <PackageReference Include="DotNetCore.NPOI" Version="1.0.2" />
+  </ItemGroup>
+
 </Project>
