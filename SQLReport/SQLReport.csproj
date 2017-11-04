@@ -2,10 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>RocherKong</Authors>
+    <Company>RocherKong</Company>
+    <Description>a library to export sql reuslt to  excel or show in table.</Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Bara" Version="0.9.5.5" />
+    <PackageReference Include="Bara" Version="0.9.6" />
     <PackageReference Include="DotNetCore.NPOI" Version="1.0.2" />
   </ItemGroup>
 

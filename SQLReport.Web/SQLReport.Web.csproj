@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TypeScriptToolsVersion>2.3</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\js\home\home.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SQLReport\SQLReport.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="BaraMapConfig.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Maps\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Scripts\Agent.js" />
+    <None Include="wwwroot\Scripts\ai.0.22.19-build00125.js" />
+    <None Include="wwwroot\Scripts\ai.0.22.19-build00125.min.js" />
+    <None Include="wwwroot\Scripts\_references.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="wwwroot\js\home\home.ts" />
+    <TypeScriptCompile Include="wwwroot\Scripts\typings\artTemplate\artTemplate.d.ts" />
+    <TypeScriptCompile Include="wwwroot\Scripts\typings\avalon.d.ts" />
+    <TypeScriptCompile Include="wwwroot\Scripts\typings\blueimp-md5\blueimp-md5.d.ts" />
+    <TypeScriptCompile Include="wwwroot\Scripts\typings\jquery.form\jquery.form.d.ts" />
+    <TypeScriptCompile Include="wwwroot\Scripts\typings\jquery.validation\jquery.validation.d.ts" />
+    <TypeScriptCompile Include="wwwroot\Scripts\typings\jquery\jquery.d.ts" />
+    <TypeScriptCompile Include="wwwroot\Scripts\typings\layer\layer.d.ts" />
+    <TypeScriptCompile Include="wwwroot\Scripts\typings\typeahead\Bloodhound.d.ts" />
+    <TypeScriptCompile Include="wwwroot\Scripts\typings\typeahead\Handlebars.d.ts" />
+    <TypeScriptCompile Include="wwwroot\Scripts\typings\typeahead\typeahead.d.ts" />
+    <TypeScriptCompile Include="wwwroot\Scripts\typings\vue\vue.d.ts" />
+  </ItemGroup>
+
+</Project>

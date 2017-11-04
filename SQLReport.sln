@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLReport", "SQLReport\SQLReport.csproj", "{34949EFE-6A8A-4BE6-BEAD-01A1D84EEA61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLReport", "SQLReport\SQLReport.csproj", "{34949EFE-6A8A-4BE6-BEAD-01A1D84EEA61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLReportTest", "SQLReportTest\SQLReportTest.csproj", "{5A10C266-B30D-4806-991F-C3B15341536D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLReportTest", "SQLReportTest\SQLReportTest.csproj", "{5A10C266-B30D-4806-991F-C3B15341536D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLReport.Web", "SQLReport.Web\SQLReport.Web.csproj", "{9328FF19-3360-4445-8C37-FA361E760854}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5A10C266-B30D-4806-991F-C3B15341536D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A10C266-B30D-4806-991F-C3B15341536D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A10C266-B30D-4806-991F-C3B15341536D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9328FF19-3360-4445-8C37-FA361E760854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9328FF19-3360-4445-8C37-FA361E760854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9328FF19-3360-4445-8C37-FA361E760854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9328FF19-3360-4445-8C37-FA361E760854}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

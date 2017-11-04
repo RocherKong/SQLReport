@@ -18,6 +18,11 @@ namespace SQLReport
         {
             _baraMapper = baraMapper;
         }
+
+        public SqlToExcel()
+        {
+            _baraMapper = MapperContainer.Instance.GetBaraMapper();
+        }
         public IDataReader QueryDataSetBySql(String Sql, object reqParams)
         {
             var dataReader = _baraMapper.ExecuteReader(Sql, reqParams);
