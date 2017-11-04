@@ -10,4 +10,3 @@ var HomeManage = (function () {
     return HomeManage;
 }());
 var homeManage = new HomeManage();
-//# sourceMappingURL=home.js.map

@@ -24,7 +24,7 @@ namespace SQLReport.Web.Controllers
             var memStream = sqlExcel.ReaderToExcel(dataReader);
             Response.Headers.Add("Content-Disposition", "attachment;fileName='SqlReport.xls'");
             //return FileStreamResult(memStream, "application/ms-excel", "fileStream.xls");
-            return new FileStreamResult(memStream, "application/ms-excel");
+            return File(memStream, "application/ms-excel");
 
         }
 
